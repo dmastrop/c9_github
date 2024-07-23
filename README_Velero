@@ -1,3 +1,8 @@
+commit 2
+
+
+
+
 # Velero for cluster disaster recovery with EKS cluster and with kops cluster.
 
 NOTE: use the EKS controller course3_COMPLETE_kops_from_course8_project14_kops_snapshot in us-east-1 for all of the setups below.   
