@@ -48,6 +48,9 @@ NOTE: I have added the version in the yaml file. This is used to troubleshoot is
 Testing now to see if it is due to the 3 node setup used on EKS vs. the one node kops setup that i used to deploy the weatherapp.  The number of nodes in the cluster is not the cause either. I am currently running with 1 node only and still crashing.
 
 
+
+commit 7
+
 ubuntu@ip-172-31-21-52:~/course3_eksctl$ kubectl get node -o wide
 NAME                             STATUS   ROLES    AGE   VERSION                INTERNAL-IP      EXTERNAL-IP      OS-IMAGE         KERNEL-VERSION                  CONTAINER-RUNTIME
 ip-192-168-0-23.ec2.internal     Ready    <none>   13m   v1.26.15-eks-ae9a62a   192.168.0.23     44.204.200.148   Amazon Linux 2   5.10.219-208.866.amzn2.x86_64   containerd://1.7.11
